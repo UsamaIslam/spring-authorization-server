@@ -1,0 +1,8 @@
+/.idea/
+/.gradle/
+/client-server/.gradle/
+/resource-server/.gradle/
+/spring-authorization-server/.gradle/
+/client-server/build/
+/resource-server/build/
+/spring-authorization-server/build/

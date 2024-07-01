@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+description = 'Spring Security OAuth Authorization Server'
+group = 'com.assessment'
+version = '0.1.0-SNAPSHOT'
+sourceCompatibility = '17'
+
+subprojects {
+    apply plugin: 'java'
+
+    group = 'com.assessment'
+    version = '0.1.0-SNAPSHOT'
+    sourceCompatibility = '17'
+
+    repositories {
+        mavenCentral()
+    }
+
+    tasks.named('test') {
+        useJUnitPlatform()
+    }
+}

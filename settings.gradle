@@ -1,0 +1,2 @@
+rootProject.name = 'oauth-authorization-server'
+include 'spring-authorization-server', 'resource-server', 'client-server'
